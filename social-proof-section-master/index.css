@@ -1,0 +1,28 @@
+.text-very-dark-magenta {
+	color: hsl(300, 43%, 22%);
+}
+
+.bg-very-dark-magenta {
+	background-color: hsl(300, 43%, 22%);
+}
+
+.text-dark-gray-magenta {
+	color: hsl(303, 10%, 53%);
+}
+
+.text-light-gray-magenta {
+	color: hsl(300, 24%, 96%);
+}
+
+.bg-light-gray-magenta {
+	background-color: hsl(300, 24%, 96%);
+}
+
+.text-soft-pink {
+	color: hsl(333, 80%, 67%);
+}
+
+body {
+	font-family: 'Spartan', sans-serif;
+	font-size: 15px;
+}
