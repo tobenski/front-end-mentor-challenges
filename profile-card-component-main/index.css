@@ -1,0 +1,16 @@
+:root {
+	--dark-cyan: hsl(185, 75%, 39%);
+	--dark-blue: hsl(229, 23%, 23%);
+	--dark-gray-blue: hsl(227, 10%, 46%);
+	--dark-gray: hsl(0, 0%, 59%);
+}
+
+body {
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+	background: url(images/bg-pattern-bottom.svg) bottom -600px right -150px
+			no-repeat,
+		url(images/bg-pattern-top.svg) top -400px left -250px no-repeat;
+	background-color: var(--dark-cyan);
+}
