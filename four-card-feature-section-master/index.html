@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- displays site properly based on user's device -->
+
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./images/favicon-32x32.png"
+		/>
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link
+			href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+			rel="stylesheet"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap"
+			rel="stylesheet"
+		/>
+
+		<link rel="stylesheet" href="index.css" />
+
+		<title>Frontend Mentor | Four card feature section</title>
+	</head>
+	<body class="bg-very-light-gray lg:overflow-hidden">
+		<header
+			class="w-full my-12 mx-auto flex flex-col items-center px-10 text-grayish-blue text-center"
+		>
+			<h2 class="text-2xl font-thin text-grayish-blue">
+				Reliable, efficient delivery
+			</h2>
+			<h2 class="text-2xl font-bold text-very-dark-blue">
+				Powered by Technology
+			</h2>
+			<p class="mt-4 lg:max-w-md">
+				Our Artificial Intelligence powered tools use millions of
+				project data points to ensure that your project is successful
+			</p>
+		</header>
+		<section
+			class="w-full flex flex-col px-8 lg:flex-row lg:grid lg:grid-cols-3 lg:px-40 lg:gap-8 lg:h-full lg:items-center"
+		>
+			<article
+				class="bg-white rounded shadow-lg p-6 border-t-4 border-cyan-primary my-4 h-56"
+			>
+				<h3 class="font-bold">Supervisor</h3>
+				<p class="py-4 font-thin">
+					Monitors activity to identify project roadblocks
+				</p>
+				<img
+					src="./images/icon-supervisor.svg"
+					alt="supervisor"
+					class="float-right"
+				/>
+			</article>
+			<div class="lg:flex lg:flex-col lg:h-full">
+				<article
+					class="bg-white rounded shadow-lg p-6 border-t-4 border-red-primary my-4 h-56"
+				>
+					<h3 class="font-bold">Team Builder</h3>
+					<p class="py-4 font-thin">
+						Scans our talent network to create the optimal team for
+						your project
+					</p>
+					<img
+						src="./images/icon-team-builder.svg"
+						alt="supervisor"
+						class="float-right"
+					/>
+				</article>
+				<article
+					class="bg-white rounded shadow-lg p-6 border-t-4 border-orange-primary my-4 h-56"
+				>
+					<h3 class="font-bold">Karma</h3>
+					<p class="py-4 font-thin">
+						Regularly evaluates our talent to ensure quality
+					</p>
+					<img
+						src="./images/icon-karma.svg"
+						alt="supervisor"
+						class="float-right"
+					/>
+				</article>
+			</div>
+			<article
+				class="bg-white rounded shadow-lg p-6 border-t-4 border-blue-primary my-4 h-56"
+			>
+				<h3 class="font-bold">Calculator</h3>
+				<p class="py-4 font-thin">
+					Uses data from past projects to provide better delivery
+					estimates
+				</p>
+				<img
+					src="./images/icon-calculator.svg"
+					alt="supervisor"
+					class="float-right"
+				/>
+			</article>
+		</section>
+	</body>
+</html>

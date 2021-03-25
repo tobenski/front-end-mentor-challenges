@@ -1,0 +1,40 @@
+:root {
+	--red: hsl(0, 78%, 62%);
+	--cyan: hsl(180, 62%, 55%);
+	--orange: hsl(34, 97%, 64%);
+	--blue: hsl(212, 86%, 64%);
+	--very-dark-blue: hsl(234, 12%, 34%);
+	--grayish-blue: hsl(229, 6%, 66%);
+	--very-light-gray: hsl(0, 0%, 98%);
+}
+
+* {
+	font-size: 15px;
+	font-family: 'Poppins', sans-serif;
+}
+
+.text-grayish-blue {
+	color: var(--grayish-blue);
+	/* color: hsl(229,6%,66%); */
+}
+
+.text-very-dark-blue {
+	color: var(--very-dark-blue);
+}
+
+.bg-very-light-gray {
+	background-color: var(--very-light-gray);
+}
+
+.border-red-primary {
+	border-color: var(--red);
+}
+.border-orange-primary {
+	border-color: var(--orange);
+}
+.border-cyan-primary {
+	border-color: var(--cyan);
+}
+.border-blue-primary {
+	border-color: var(--blue);
+}
