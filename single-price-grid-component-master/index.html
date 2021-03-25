@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- displays site properly based on user's device -->
+
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./images/favicon-32x32.png"
+		/>
+		<link
+			href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+			rel="stylesheet"
+		/>
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+
+		<link
+			href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap"
+			rel="stylesheet"
+		/>
+
+		<link rel="stylesheet" href="index.css" />
+
+		<title>Frontend Mentor | Single Price Grid Component</title>
+	</head>
+	<body>
+		<main
+			class="px-6 py-12 w-screen h-full min-h-screen flex items-center justify-center overflow-y-auto lg:overflow-hidden bg-light-gray"
+		>
+			<section class="w-full max-w-2xl bg-white rounded-lg shadow-lg">
+				<div class="flex flex-col items-start p-12">
+					<h2 class="text-cyan text-3xl font-bold mb-8">
+						Join our community
+					</h2>
+					<h4 class="text-bright-yellow text-xl font-bold mb-6">
+						30-day, hassle-free money back guarantee
+					</h4>
+					<p class="text-grayish-blue font-semibold">
+						Gain access to our full library of tutorials along with
+						expert code reviews. Perfect for any developers who are
+						serious about honing their skills.
+					</p>
+				</div>
+				<div class="flex w-full grid lg:grid-cols-2">
+					<div
+						class="bg-cyan flex flex-col items-start p-10 text-light-gray lg:rounded-bl-lg"
+					>
+						<h5 class="text-xl mb-6">Monthly Subscription</h5>
+						<div class="flex flex-row items-center mb-6">
+							<span class="text-3xl font-bold">&dollar;29</span>
+							<span class="text-gray-300 pl-2"> per month</span>
+						</div>
+						<p class="mb-6">
+							Full access for less than &dollar;1 a day
+						</p>
+						<button
+							class="tooltip w-full bg-bright-yellow py-3 rounded shadow-lg"
+						>
+							Sign Up
+							<div class="tooltiptext">
+								Click to Sign up for the Monthly Subscription
+							</div>
+						</button>
+					</div>
+					<div
+						class="bg-cyan opacity-75 flex flex-col items-start p-10 text-light-gray rounded-b-lg lg:rounded-br-lg"
+					>
+						<h5 class="text-xl mb-6">Why Us</h5>
+						<ul class="text-gray-300">
+							<li>Tutorials by industry experts</li>
+							<li>Peer &amp; expert code review</li>
+							<li>Coding exercises</li>
+							<li>Access to our GitHub repos</li>
+							<li>Community forum</li>
+							<li>Flashcard decks</li>
+							<li>New videos every week</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+		</main>
+	</body>
+</html>
